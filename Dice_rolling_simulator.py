@@ -6,3 +6,5 @@ roll = input("Hit the enter to roll the dice: ")
 playsound('dice.mp3')
 number = [1, 2, 3, 4, 5, 6]
 print(f"You got the number: {random.choice(number)}")
+
+# we can also use random.randint(1,6).
