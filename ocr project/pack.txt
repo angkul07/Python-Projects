@@ -1,0 +1,10 @@
+$ sudo apt update && sudo apt upgrade
+$ sudo apt install tesseract-ocr
+$ sudo apt install libtesseract-dev
+
+$ pip install pytesseract
+$ pip install opencv-python
+
+$ 
+$ pip install pdf2image
+sudo apt-get install -y poppler-utils

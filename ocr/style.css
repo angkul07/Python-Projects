@@ -1,0 +1,11 @@
+body{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.upload{
+    margin-top: 4000 px;
+    padding: 10cm;
+}
