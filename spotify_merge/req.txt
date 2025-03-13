@@ -1,0 +1,9 @@
+os.environ["SPOTIPY_CLIENT_ID"] = "1ff17c647cc0470d8e43163cfcde1a90"
+os.environ["SPOTIPY_CLIENT_SECRET"] = "a3667ea0795d4a94af11505edc13da06"
+
+auth_manager = SpotifyClientCredentials()
+sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id="1ff17c647cc0470d8e43163cfcde1a90",
+                                               client_secret="a3667ea0795d4a94af11505edc13da06",
+                                               redirect_uri="http://localhost:1234/",
+                                               scope="playlist-modify-public"
+                                               ))
